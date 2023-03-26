@@ -43,7 +43,6 @@
         <div class="nav-item">
             <a href="thanks.html">Agradecimientos</a>
         </div>
-        <script src="nav-color.js"></script>
     </div>
     <body>
         <div class="experience-div">
@@ -65,8 +64,21 @@
             </div>
         </div>
     </div>
+    <script>
+        // Umbra Nav Effect Lib
+        const navItems = document.querySelectorAll('.nav-item');
+        navItems.forEach(navItem => {
+            const link = navItem.querySelector('a');
+            
+            if(window.location.href==link.href) {
+                navItem.classList.add("active");
+            }
+        });
+    </script>
     </body>
     <footer>
-        <p>Optix - 2023. Algunos logos y marcas son propiedad de <a href="https://revo.stuxiom.com">Swiftly</a>, pero como Swiftly me pertenece no hay problema :]</p>
+        <div class="footer-card">
+            <p>Optix - 2023.</p>
+        </div>
     </footer>
 </html>
