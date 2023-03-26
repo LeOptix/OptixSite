@@ -1,0 +1,28 @@
+  /*VARIABLES*/
+  :root {
+    /*Umbra variables*/
+    --umbral-acento: #006496;
+    
+    --umbral-container-a: #151515;
+    --umbral-container-b: #252525;
+    --umbral-factor: #333;
+    --umbral-extra: #204060;
+
+    --umbral-destructive: #C81414;
+    --umbral-exito: #1E966E;
+    --umbral-acento-sobrante: #0A325A;
+    
+    /*Swiftly variables*/
+    --verde-claro: #009664;
+    --verde-oscuro: #006432;
+    --azul-claro: #006496; /*Umbral Acento*/
+    --azul-oscuro: #003264;
+    --oscuro-swiftly: rgb(50, 50, 90);
+    --negro-swiftly: rgb(21, 21, 36);
+    --amarillo-pastel: rgb(255, 255, 105);
+    --rosa-pastel: rgb(255, 105, 205);
+    --rojo-explosivo: #D40000;
+    --rojo-menos-explosivo: #800000;
+    --curva-rapidita: all 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    --ramadan: linear-gradient(to left, #F4AF37, #138D75, #F4AF37);
+  }
