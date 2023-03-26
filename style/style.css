@@ -1,21 +1,30 @@
   /*VARIABLES*/
   :root {
     /*Umbra variables*/
-    --umbral-acento: #006496;
+    --umbra-acento: #006496;
+    --umbra-acento-hover: #1E82BA;
     
-    --umbral-container-a: #151515;
-    --umbral-container-b: #252525;
-    --umbral-factor: #333;
-    --umbral-extra: #204060;
+    --umbra-container-a: #151515;
+    --umbra-container-b: #252525;
+    --umbra-factor: #333;
+    --umbra-factor-hover: #515151;
+    --umbra-extra: #204060;
+    --umbra-extra-hover: #3E5E7E;
 
-    --umbral-destructive: #C81414;
-    --umbral-exito: #1E966E;
-    --umbral-acento-sobrante: #0A325A;
+    --umbra-destructive: #C81414;
+    --umbra-destructive-hover: #E63232;
+    --umbra-exito: #1E966E;
+    --umbra-exito-hover: #3CB48C;
+    --umbra-acento-sobrante: #0A325A;
+    --umbra-acento-sobrante-hover: #285078;
+
+    --umbra-anim-tranquila: all 600ms cubic-bezier(0.6, 0, 0, 1);
+    --umbra-anim-rapidin: all 500ms cubic-bezier(0.79, 0.14, 0.15, 0.86);
     
     /*Swiftly variables*/
     --verde-claro: #009664;
     --verde-oscuro: #006432;
-    --azul-claro: #006496; /*Umbral Acento*/
+    --azul-claro: #006496; /*umbra Acento*/
     --azul-oscuro: #003264;
     --oscuro-swiftly: rgb(50, 50, 90);
     --negro-swiftly: rgb(21, 21, 36);
@@ -25,4 +34,52 @@
     --rojo-menos-explosivo: #800000;
     --curva-rapidita: all 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
     --ramadan: linear-gradient(to left, #F4AF37, #138D75, #F4AF37);
+
+    /*Cosas universales*/
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #FFF;
+    background-color: var(--umbra-container-a);
+  }
+
+  .container-1{
+    background-color: var(--umbra-container-a);
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+  }
+
+  header{
+    height: 40px;
+    text-align: center;
+  }
+  
+  .nav{
+    background-color: var(--umbra-container-b);
+    border-radius: 5px 20px 5px 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+
+  .nav-item{
+    padding: 1em;
+    margin-right: 10px;
+    border-radius: 5px 20px 5px 20px;
+    background-color: var(--umbra-factor);
+    transition: var(--umbra-anim-tranquila);
+  }
+
+  .nav-item:hover{
+    background-color: var(--umbra-factor-hover);
+  }
+
+  .nav-item a{
+    text-decoration: none;
+    color: #FFF;
+  }
+
+  .nav-item.active{
+    background-color: var(--umbra-extra);
   }
