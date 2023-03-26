@@ -49,6 +49,9 @@
   header{
     height: 40px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .nav{
@@ -98,8 +101,8 @@
     margin-bottom: 10px;
     padding: 1em;
     color: #FFF;
-    width: 200px;
-    height: 40px;
+    width: 250px;
+    height: 50px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -126,8 +129,8 @@
     margin-bottom: 10px;
     padding: 1em;
     color: #FFF;
-    width: 200px;
-    height: 40px;
+    width: 250px;
+    height: 50px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -160,8 +163,8 @@
     background-color: var(--umbra-container-a);
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 300px;
-    height: 250px;
+    width: 350px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     padding-top: 10px;
@@ -177,8 +180,8 @@
     background-color: var(--umbra-container-a);
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 300px;
-    height: 250px;
+    width: 350px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     padding-top: 10px;
