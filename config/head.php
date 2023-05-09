@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-    <head>
         <meta charset="UTF-8">
 		<meta name="title" content="¡Hola! Soy Optix, diseñador y editor.">
 		<meta name="description" content="Me llamo Zakaria, pero llámame Optix. Soy diseñador UI y UX con años de experiencia, editor de video avanzado, y ahora me encuentro estudiando programación a la par que trabajo en mis proyectos.">
@@ -23,54 +20,3 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu+Mono&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="style/style.css">
         <title>Optix - Portafolio</title>
-    </head>
-    <header>
-        <h1>O·P·T·I·X</h1>
-    </header>
-    <div class="container-1">
-    <div class="nav">
-        <div class="nav-item">
-            <a href="index.html">Inicio</a>
-        </div>
-        <div class="nav-item">
-            <a href="projects.html">Proyectos</a>
-        </div>
-        <div class="nav-item">
-            <a href="customers.html">Clientes satisfechos</a>
-        </div>
-        <div class="nav-item">
-            <a href="contact.html">Contacto</a>
-        </div>
-        <div class="nav-item">
-            <a href="thanks.html">Agradecimientos</a>
-        </div>
-    </div>
-    <body>
-        <div class="content1-div">
-            <h2>Aquí, mi experiencia:</h2>
-            <div class="content1-div-item">
-                <img src="img/icondesign.png">
-                <h3>Diseño de UI y UX</h3>
-                <p>3 años y medio</p>
-            </div>
-            <div class="content1-div-item">
-                <img src="img/iconvideo.png">
-                <h3>Edición de video</h3>
-                <p>1 año</p>
-            </div>
-            <div class="content1-div-item">
-                <img src="img/iconcode.png">
-                <h3>Programación</h3>
-                <p>Web - Menos de 6 meses.</p>
-            </div>
-            <a href="contact.html"><button class="button-primary">Ponte en contacto conmigo</button></a>
-        </div>
-    </div>
-    <script src="umbra-nav.js"></script>
-    </body>
-    <footer>
-        <div class="footer-card">
-            <p>Optix - 2023.</p>
-        </div>
-    </footer>
-</html>
