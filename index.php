@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Optix</title>
         <?php
             $webTitle = "Optix";
             $webDescription = "Soy Optix, un diseñador de UI/UX, programador, y editor, con años de experiencia en mis áreas. Soy entusiasta, híbrido, y capaz de manejarme bajo contextos de estrés. Y soy Optix.";
@@ -37,7 +38,7 @@
             </a>
         </div>
     </div>
-    <script src="umbra-nav.js"></script>
+    <script src="js/nav.js"></script>
     </body>
     <?php include ("/config/footer.php"); ?>
 </html>
