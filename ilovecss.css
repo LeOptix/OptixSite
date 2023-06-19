@@ -1,0 +1,290 @@
+/*no se que harás inspeccionando este archivo, pero bueno*/
+/*tampoco creo que lo entiendas en verdad*/
+/*tipo, ni si quiera yo entiendo eso*/
+/*o es q crees q lo hice yo? XD no yo hice otro q solo tengo yo, este es el CSS fea solo para
+inspeccionistas inspectores q inspeccionan webs*/
+
+/*como me reí escribiendo esto XDD*/
+
+*{
+    scroll-behavior: smooth;
+    transition: var(--animasao);
+}
+
+:root{
+    --optox-hierba: #009664;
+    --optox-awa: #006496;
+    --optox-luz: #9B9BFF;
+    --optox-menta: #9BFFC8;
+    /*puse optox aposta, no preguntes XD*/
+
+    --bien: #00AF60;
+    --bien-fondo: #00AF6030;
+
+    --aviso: #FF4848;
+    --aviso-fondo: #FF484830;
+
+    --negro: #212122;
+    --muy-negro: #121212;
+    --negrisimo: #090A0F;
+
+    --animasao: all 500ms cubic-bezier(0.6, 0, 0, 1);
+}
+
+hr{
+    width: 90%;
+    height: 2px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #FFF;
+}
+
+h1, h2{
+    font-family: 'Poppins';
+}
+
+h3, h4, h5, h6, p, a, button, ::placeholder, ul, li, td, th, table{
+    font-family: 'Montserrat';
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
+    padding: 0;
+    margin: 0;
+}
+
+p.bien{
+    color: var(--bien);
+    background-color: var(--bien-fondo);
+    padding: 5px 0px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    cursor: help;
+}
+
+p.aviso{
+    color: var(--aviso);
+    background-color: var(--aviso-fondo);
+    padding: 5px 0px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    cursor: help;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+    cursor: pointer;
+    text-shadow: 0px 0px 0px #FFF;
+}
+
+a:hover{
+    color: var(--optox-menta);
+    text-shadow: 0px 0px 25px #FFF;
+}
+
+table{
+    text-align: center;
+}
+
+table td, table th{
+    outline: solid 2px #FFF;
+    padding: 10px;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: translateY(-10px);
+}
+
+button:active{
+    transform: translateY(10px);
+    opacity: 0.4;
+}
+
+.bt-prima{
+    background-color: var(--optox-hierba);
+}
+
+.bt-segonda{
+    background-color: var(--negro);
+    color: #FFF;
+}
+
+body{
+    background-color: var(--negrisimo);
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.gordo{
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projecto, .super-projecto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--negrisimo);
+}
+
+.projecto img, .super-projecto img{
+    width: 70px;
+    border-radius: 10px;
+}
+
+.super-projecto{
+    animation: span 4s linear infinite;
+    border: solid 4px var(--optox-awa);
+}
+
+#home{
+    width: 90%;
+    background-color: #FFFFFF05;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: auto;
+    border-radius: 10px;
+    animation: span 4s cubic-bezier(0.6, 0, 0, 1) infinite;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#home h1{
+    font-size: 80px;
+    background-size: 200%;
+    white-space: nowrap;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-image: linear-gradient(to right bottom, var(--optox-hierba), var(--optox-awa), var(--optox-hierba));
+}
+
+#home .nav{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    gap: 10px;
+}
+
+#about{
+    width: 90%;
+    gap: 10px;
+    background-color: #FFFFFF05;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#habiliteh{
+    width: 90%;
+    gap: 10px;
+    background-color: #FFFFFF05;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#proyectos{
+    width: 90%;
+    background-color: #FFFFFF05;
+    padding: 20px;
+    gap: 10px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contacto{
+    width: 90%;
+    gap: 10px;
+    background-color: #FFFFFF05;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#redes{
+    width: 90%;
+    gap: 10px;
+    background-color: #FFFFFF05;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    width: 90%;
+    background-color: #FFFFFF05;
+    padding: 20px;
+    gap: 10px;
+    margin: auto;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes span{
+    0%{
+        box-shadow: 0px 0px 10px 0px var(--optox-luz);
+    }
+
+    50%{
+        box-shadow: 0px 0px 10px 0px var(--optox-menta);
+    }
+
+    100%{
+        box-shadow: 0px 0px 10px 0px var(--optox-luz);
+    }
+}
