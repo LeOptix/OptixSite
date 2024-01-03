@@ -1,0 +1,275 @@
+html[lang="Eng"] esp{display:none!important}html[lang="Esp"] eng{display:none!important}
+
+img { pointer-events: none!important }
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    /*scrollbar-width: none;*/
+    transition-duration: 450ms;
+    text-decoration: none;
+    font-family: 'Poppins', 'Segoe UI', 'Outfit', sans-serif;
+}
+
+:root {
+    --bodyBg: rgba(0, 0, 0, 1);
+    --cardBg: rgba(15, 15, 15, 1);
+    --extraBg: rgba(20, 20, 20, 0.75);
+
+    --cardStrokeWhite: rgba(255, 255, 255, 0.25);
+    --cardStroke: 0.25px solid var(--cardStrokeWhite);
+}
+
+.colorinchi {
+    position: absolute;
+    z-index: -1;
+    top: -150px;
+    left: -200px;
+    height: 80vh;
+    width: 80vw;
+    filter: blur(240px);
+    opacity: 0.8;
+    border-radius: 100%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bodyBg);
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-around;
+    overflow-x: hidden;
+    color: white
+}
+
+body side {
+    width: calc(50vw - 40px);
+    height: calc(100vh - 40px);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+}
+
+footer {
+    padding: 12px;
+    width: calc(100% - 20px);
+    border-radius: 12px;
+    text-align: center;
+    background-color: var(--cardBg);
+    border: var(--cardStroke);
+    opacity: 0.5;
+    margin-top: 10px;
+}
+
+.otpoxlogo {
+    width: 25%;
+    height: auto;
+    object-fit: scale-down;
+}
+
+bento {
+    display: grid;
+    grid-template-rows: 200px auto;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    width: calc(100% - 20px);
+}
+
+bento a {
+    color: white;
+    text-decoration: none;
+}
+
+box {
+    padding: 20px;
+    background-color: var(--cardBg);
+    border: var(--cardStroke);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+box p.pp {
+    margin-bottom: 20px;
+}
+
+box flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+box:hover {
+    cursor: pointer;
+}
+
+box:hover flex {
+    gap: 30px;
+}
+
+.box-yt:hover {
+    background-color: #FF3D0090;
+    box-shadow: 0px 0px 60px 0px #FF3D0080;
+    border: 1px solid #FF3D00;
+}
+.box-yt:hover svg path[fill="#FFF"] {
+    fill: #FF3D00
+}
+.box-yt:hover svg path[fill="#FF3D00"] {
+    fill: #FFF
+}
+.box-x:hover {
+    background-color: #03A9F490;
+    box-shadow: 0px 0px 60px 0px #03A9F480;
+    border: 1px solid #03A9F4;
+}
+.box-x:hover svg path {
+    fill: white;
+}
+.box-dc:hover {
+    background-color: #536dfe90;
+    box-shadow: 0px 0px 60px 0px #536dfe80;
+    border: 1px solid #536dfe;
+}
+.box-dc:hover svg path {
+    fill: white;
+}
+.box-replot:hover {
+    background-color: #fb8c0090;
+    box-shadow: 0px 0px 60px 0px #fb8c0080;
+    border: 1px solid #fb8c00;
+}
+.box-replot:hover svg path {
+    fill: white;
+}
+.box-fogma:hover {
+    background-color: #66bb6a90;
+    box-shadow: 0px 0px 60px 0px #66bb6a80;
+    border: 1px solid #66bb6a;
+}
+.box-fogma:hover svg path, .box-fogma:hover svg circle {
+    fill: white;
+}
+.box-gh:hover {
+    background-color: #000;
+    box-shadow: 0px 0px 60px 0px #FFFFFF30;
+    border: 1px solid #FFFFFF90;
+}
+
+.animation {
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+.animation:nth-of-type(1) {
+    transition-duration: 600ms;
+}
+
+.animation:nth-of-type(2) {
+    transition-duration: 750ms;
+}
+
+.animation:nth-of-type(3) {
+    transition-duration: 900ms;
+}
+
+.animation:nth-of-type(4) {
+    transition-duration: 1050ms;
+}
+
+.animation:nth-of-type(5) {
+    transition-duration: 1200ms;
+}
+
+.animation:nth-of-type(6) {
+    transition-duration: 1350ms;
+}
+
+.animation:nth-of-type(7) {
+    transition-duration: 1500ms;
+}
+
+.animation:nth-of-type(8) {
+    transition-duration: 1650ms;
+}
+
+.animation:nth-of-type(9) {
+    transition-duration: 1800ms;
+}
+
+.animation:nth-of-type(10) {
+    transition-duration: 1950ms;
+}
+
+.animation:nth-of-type(11) {
+    transition-duration: 2100ms;
+}
+
+.animation:nth-of-type(12) {
+    transition-duration: 2250ms;
+}
+
+.animation:nth-of-type(13) {
+    transition-duration: 2400ms;
+}
+
+.animation:nth-of-type(14) {
+    transition-duration: 2550ms;
+}
+
+.animation:nth-of-type(15) {
+    transition-duration: 2700ms;
+}
+
+.animation:nth-of-type(16) {
+    transition-duration: 2850ms;
+}
+
+.animation:nth-of-type(17) {
+    transition-duration: 3000ms;
+}
+
+.animation:nth-of-type(18) {
+    transition-duration: 3150ms;
+}
+
+.animation:nth-of-type(19) {
+    transition-duration: 3300ms;
+}
+
+.animation:nth-of-type(20) {
+    transition-duration: 3450ms;
+}
+
+.scroll-animation {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+        justify-content: start;
+    }
+    
+    body side {
+        height: auto;
+        width: calc(100vw - 40px);
+    }
+
+    bento {
+        width: 100%;
+    }
+}
